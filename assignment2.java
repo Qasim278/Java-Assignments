@@ -3,7 +3,7 @@ package programming1;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class assignment2 {
+public class StringAnagram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,7 +28,7 @@ public class assignment2 {
 
 	public static boolean isAnagram(String first, String second) {
 
-		String allowed = "[A-ZÅÄÖa-zåäö\\ \\.\\,]{0,}";
+		String allowed = "[A-ZÃ…Ã„Ã–a-zÃ¥Ã¤Ã¶\\ \\.\\,]{0,}";
 		String noLetters = "[\\ \\.\\,]{0,}";
 		String replace = "[\\ \\.\\,]{1,}";
 
