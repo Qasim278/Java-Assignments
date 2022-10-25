@@ -1,3 +1,6 @@
+
+//Create a program called StringAnagram that has a method called isAnagram that determines whether two strings are anagrams of each other.
+
 package programming1;
 
 import java.util.Arrays;
