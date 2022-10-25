@@ -1,8 +1,7 @@
-package programming1;
 
 import java.util.Scanner;
 
-public class assignment1 {
+public class StringPalindrome {
 
 	public static void main(String[] args) {
 
@@ -27,7 +26,7 @@ public class assignment1 {
 
 	public static boolean isPalindrome(String input) {
 
-		String allowed = "[A-ZÅÄÖa-zåäö\\ \\.\\,\\:\\;\\?\\!\\-\\'\\\"]{0,}";
+		String allowed = "[A-ZÃ…Ã„Ã–a-zÃ¥Ã¤Ã¶\\ \\.\\,\\:\\;\\?\\!\\-\\'\\\"]{0,}";
 		String noLetters = "[\\ \\.\\,\\:\\;\\?\\!\\\\-\\\\'\\\"]{0,}";
 
 		if (input.matches(noLetters)) {
