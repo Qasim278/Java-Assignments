@@ -1,5 +1,14 @@
 
-//Create a program called StringPalindrome that has a method called isPalindrome that determines whether a string contains a palindrome.
+/* Create a program called StringPalindrome that has a method called isPalindrome that determines whether a string contains a palindrome. The method should accept a string as its input parameter and return true if the string contains a palindrome. Otherwise, the method should return false.
+
+The main method first inputs a string from the user and then calls the method isPalindrome with the inputted string. Finally, the main method prints either "The text is a palindrome." or "No palindrome".
+
+ Rules (in this exercise)
+
+The method isPalindrome should allow only letters, whitespace, commas, dots, colons, semi-colons, question marks, exclamation marks, hyphens, single quotes and double quotes in a palindrome. If there are any other characters, then the text cannot be a palindrome.
+NB! The method should ignore all whitespace, commas, dots, colons, semi-colons, question marks, exclamation marks, hyphens, single quotes and double quotes when it checks the text.
+If there are no letters in the text, then the text cannot be a palindrome. */
+
 
 import java.util.Scanner;
 
