@@ -1,4 +1,6 @@
 
+//Create a program called StringPalindrome that has a method called isPalindrome that determines whether a string contains a palindrome.
+
 import java.util.Scanner;
 
 public class StringPalindrome {
