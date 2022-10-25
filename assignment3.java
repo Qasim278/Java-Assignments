@@ -1,4 +1,12 @@
-package programming1;
+/* Create a class called ArrayStatLibrary for storing generic reusable methods. That is, the ArrayStatLibrary class is a method library class and it does not have the main method. Instead, the class should have the following methods: max, min, median, mean, and standardDeviation. Each method should take an array of integers as parameter (argument) and return the appropriate result.
+
+Create a program called ArrayStatistics that uses methods of the ArrayStatLibrary class. First, 
+the main method should ask the user how many values there are in the sample. Then, the main method should input the values from the user and save them to an array. Finally, the program should compute the required descriptive statistics from the sample data and display them. See the example output for more details.
+
+The main method should call the methods max, min, median, mean, and standardDeviation of the ArrayStatLibrary class to get the values to be printed.
+
+The minimum allowed sample size is 3. If the user enters less than 3 as the number of values, then the program should just print the text "Sorry, at least 3 values required". */
+
 
 import java.util.Scanner;
 import java.util.Arrays;
