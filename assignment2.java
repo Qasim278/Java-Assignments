@@ -1,9 +1,19 @@
+/* Create a program called StringAnagram that has a method called isAnagram that determines whether two strings are anagrams of each other.
+
+The main method first inputs two strings from the user and then calls the method isAnagram with the inputted strings. Finally, the main method prints either "Anagram!" or "No anagram.".
+
+Rules (in this exercise)
+
+The method isAnagram should allow only letters, whitespace, commas and dots in an anagram. If there are any other characters, then the string cannot contain an anagram.
+The method should ignore all whitespace, commas and dots when it checks the text.
+If there are no letters in the text, then the text cannot be an anagram. */
+
 package programming1;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class assignment2 {
+public class StringAnagram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,7 +38,7 @@ public class assignment2 {
 
 	public static boolean isAnagram(String first_input, String second_input) {
 
-		String allowed = "[A-ZÅÄÖa-zåäö\\ \\.\\,]{0,}";
+		String allowed = "[A-ZÃ…Ã„Ã–a-zÃ¥Ã¤Ã¶\\ \\.\\,]{0,}";
 		String noLetters = "[\\ \\.\\,]{0,}";
 		String replace = "[\\ \\.\\,]{1,}";
 
